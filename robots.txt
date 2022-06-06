@@ -1,0 +1,4 @@
+Sitemap: https://intsashka.github.io/intsashka/sitemap.xml
+
+User-agent: *
+Disallow:
