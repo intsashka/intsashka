@@ -1,0 +1,22 @@
+{
+  "name": "intsashka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intsashka/intsashka.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intsashka/intsashka/issues"
+  },
+  "homepage": "https://github.com/intsashka/intsashka#readme",
+  "dependencies": {
+    "sitemap": "^7.1.1"
+  }
+}
