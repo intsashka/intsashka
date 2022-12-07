@@ -11,8 +11,23 @@
     </style>
 </head>
 <body>
-  <a href="tel:+7999999999,,5654">tel:+7999999999,,5654</a>
-  <a href="tel:+7999999999">tel:+7999999999</a>
-  <a href="+7999999999,,5654">+7999999999,,5654</a>
-  <a href="+7999999999">+7999999999</a>
-</body></html>
+<script>
+    const onclick = () => console.log('click!')
+</script>
+<p>Hello</p>
+<a href="tel:+7999999999,,5654">
+    <button onclick="onclick">
+        tel:+7999999999,,5654
+    </button>
+</a>
+<a href="tel:+7999999999">
+    <button onclick="onclick">tel:+7999999999</button>
+</a>
+<a href="+7999999999,,5654">
+    <button onclick="onclick">+7999999999,,5654</button>
+</a>
+<a href="+7999999999">
+    <button onclick="onclick">+7999999999</button>
+</a>
+</body>
+</html>
