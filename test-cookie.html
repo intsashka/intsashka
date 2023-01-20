@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестирую куки</title>
+</head>
+<body>
+<script>
+    const updateValue = () => {
+        const value = document.cookie
+        console.log('snetkov value', value)
+        document.querySelector('#cookie_value').innerHTML = value
+    }
+
+    const onSave = () => {
+        const value = document.querySelector('#cookie_input').value
+        document.cookie = value
+        document.querySelector('#cookie_input').value = ''
+        updateValue()
+    }
+</script>
+<div>
+    <H1>Текущие значение кук:</H1>
+    <div id="cookie_value">
+
+    </div>
+</div>
+<div>
+    <input type="text" id="cookie_input"/>
+    <button onclick="onSave()">Сохранить</button>
+</div>
+<script>
+    updateValue();
+</script>
+</body>
+</html>
