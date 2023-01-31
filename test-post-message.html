@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Тестирую куки</title>
+</head>
+<body>
+<script>
+  let i = 0;
+  setInterval(() => {
+    parent.postMessage(`Send message #${i++}`)
+  }, 1000)
+</script>
+Чтобы увидеть сообщение введи в консоли браузера:
+<code>
+  window.addEventListener("message", (e) => console.log(e))
+</code>
+
+</body>
+</html>
